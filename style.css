@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&display=swap");
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-smoothing: antialiased;
+  color: #1B294B;
+  text-rendering: optimizeLegibility;
+  max-width: 1600px;
+  margin: auto; }
+  html {
+    font-size: 16px; }
+    @media screen and (min-width: 360px) {
+      html {
+        font-size: calc(16px + 6 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      html {
+        font-size: 22px; } }
+
+body {
+  background-color: #FDFEFF; }
+  body {
+    margin: 24px; }
+    @media screen and (min-width: 360px) {
+      body {
+        margin: calc(24px + 80 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      body {
+        margin: 104px; } }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2.46rem;
+  margin-bottom: 0.82rem;
+  line-height: 1.25em; }
+
+h1 {
+  /*font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;*/
+  font-weight: 900; }
+  h1 {
+    font-size: 32.181715px; }
+    @media screen and (min-width: 360px) {
+      h1 {
+        font-size: calc(32.181715px + 31.9377128912 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      h1 {
+        font-size: 64.1194278912px; } }
+
+h2 {
+  /*font-size: $mod_1*$mod_1*$mod_1 *1rem;*/
+  font-weight: 900; }
+  h2 {
+    font-size: 27.9841px; }
+    @media screen and (min-width: 360px) {
+      h2 {
+        font-size: calc(27.9841px + 20.59122416 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      h2 {
+        font-size: 48.57532416px; } }
+
+h3 {
+  /*font-size: $mod_1*$mod_1 *1rem;*/
+  font-weight: 700; }
+  h3 {
+    font-size: 24.334px; }
+    @media screen and (min-width: 360px) {
+      h3 {
+        font-size: calc(24.334px + 12.465488 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      h3 {
+        font-size: 36.799488px; } }
+
+h4 {
+  /*font-size: $mod_1 *1rem;*/
+  font-weight: 700; }
+  h4 {
+    font-size: 21.16px; }
+    @media screen and (min-width: 360px) {
+      h4 {
+        font-size: calc(21.16px + 6.7184 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      h4 {
+        font-size: 27.8784px; } }
+
+h5 {
+  /*font-size: $mod_1 *1rem;*/
+  font-weight: 600; }
+  h5 {
+    font-size: 18.4px; }
+    @media screen and (min-width: 360px) {
+      h5 {
+        font-size: calc(18.4px + 2.72 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      h5 {
+        font-size: 21.12px; } }
+
+h6 {
+  /*font-size: 1rem;*/
+  font-weight: 600;
+  text-transform: uppercase; }
+  h6 {
+    font-size: 16px; }
+    @media screen and (min-width: 360px) {
+      h6 {
+        font-size: calc(16px + 0 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      h6 {
+        font-size: 16px; } }
+
+p {
+  line-height: 1.64rem;
+  margin-bottom: 1.64rem;
+  color: #5E7194; }
+
+.headline {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1974D2;
+  display: block;
+  margin-bottom: -2.1866666667rem; }
+  .headline {
+    font-size: 12px; }
+    @media screen and (min-width: 360px) {
+      .headline {
+        font-size: calc(12px + 6 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      .headline {
+        font-size: 18px; } }
+
+.caption {
+  color: #1974D2;
+  display: block;
+  margin-top: -0.41rem; }
+  .caption {
+    font-size: 12px; }
+    @media screen and (min-width: 360px) {
+      .caption {
+        font-size: calc(12px + 6 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      .caption {
+        font-size: 18px; } }
+
+.btn-large, .btn-medium, .btn-small {
+  cursor: pointer;
+  font-family: inherit;
+  border: none; }
+
+.btn-large {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 100px;
+  padding: 0 1.274rem;
+  background-color: #00BFFF;
+  color: #FDFEFF; }
+  .btn-large {
+    font-size: 18px; }
+    @media screen and (min-width: 360px) {
+      .btn-large {
+        font-size: calc(18px + 8 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      .btn-large {
+        font-size: 26px; } }
+  .btn-large {
+    height: 40px; }
+    @media screen and (min-width: 360px) {
+      .btn-large {
+        height: calc(40px + 16 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      .btn-large {
+        height: 56px; } }
+
+.btn-medium {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 100px;
+  padding: 0 .91rem;
+  background-color: #00BFFF;
+  color: #FDFEFF; }
+  .btn-medium {
+    font-size: 14px; }
+    @media screen and (min-width: 360px) {
+      .btn-medium {
+        font-size: calc(14px + 4 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      .btn-medium {
+        font-size: 18px; } }
+  .btn-medium {
+    height: 32px; }
+    @media screen and (min-width: 360px) {
+      .btn-medium {
+        height: calc(32px + 8 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      .btn-medium {
+        height: 40px; } }
+
+.btn-small {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0;
+  background-color: none;
+  color: #1974D2;
+  border-bottom: 2px solid #00BFFF; }
+  .btn-small {
+    font-size: 16px; }
+    @media screen and (min-width: 360px) {
+      .btn-small {
+        font-size: calc(16px + 6 * ((100vw - 360px) / 1240)); } }
+    @media screen and (min-width: 1600px) {
+      .btn-small {
+        font-size: 22px; } }
+
+/*# sourceMappingURL=style.css.map */
